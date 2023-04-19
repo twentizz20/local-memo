@@ -1,1 +1,1 @@
-# simple-memo
+# local-memo
