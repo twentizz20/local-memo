@@ -15,13 +15,13 @@
       <article class="memo">
         <form class="memoForm">
           <section class="memoWrapper">
-            <label for="memoTitle">제목</label>
+            <label for="memoTitle" class="memoTitle">제목</label>
             <input type="text" id="memoTitle" />
-            <label for="memoContent">내용</label>
+            <label for="memoContent" class="memoContent">내용</label>
             <input type="text" id="memoContent" />
           </section>
         </form>
-        <button class="memoButton">입력</button>
+        <button class="memoButton" id="memoButton">입력</button>
       </article>
       <article class="show">
         <section class="contentWrapper">
@@ -33,6 +33,7 @@
             aliquid eos pariatur vitae!
           </p>
           <button class="contentDelete">삭제</button>
+          <button class="contentModify">수정</button>
         </section>
       </article>
     </section>
